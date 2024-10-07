@@ -24,4 +24,4 @@ To get started with the code in this repository:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/repo-name.git
+   git clone https://github.com/ChiGeorgeMofor/My-OSINT-21-days.git
