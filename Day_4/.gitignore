@@ -1,0 +1,9 @@
+Day 4. Reading and Writing Files
+Today I learned how to write a file and write it using python methods.
+
+I implemented a practical exercise by moving the output of a thorndyke search to a new file called ivanov_pages.txt and bello_pages.txt.
+
+Points To Note
+.open("file.txt", ["r-read", "a-append", "w-write", "x-newFile"])
+.write()
+.close()
