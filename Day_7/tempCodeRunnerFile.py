@@ -1,3 +1,2 @@
-
-    for row in csv_reader:
+for row in csv_reader:
         print(row)
