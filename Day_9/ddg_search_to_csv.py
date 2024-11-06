@@ -1,4 +1,4 @@
-from duckduckgo_search import ddg
+# from duckduckgo_search import ddg
 import csv
 
 csv_file = open('search_results.csv', 'w')
