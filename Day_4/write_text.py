@@ -7,6 +7,6 @@ results_file = open("results.txt", "a")
 # "w" - open a file for writing 
 # "x" - create new file
 
-results_file.write(result)
+results_file.write(result) 
 
 results_file.close()
