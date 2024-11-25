@@ -1,3 +1,3 @@
 Day 6: JSON
 
-Extracting data from JSON Files using code.
+Extracting data from JSON Files using code. 
