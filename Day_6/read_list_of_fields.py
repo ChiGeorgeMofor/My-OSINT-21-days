@@ -1,7 +1,7 @@
 import json
 import requests
 
-response = requests.get("https://api.github.com/search/users?q=folefac")
+response = requests.get("https://api.github.com/search/users?q=folefac") 
 
 json_data = response.json()
  
