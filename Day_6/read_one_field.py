@@ -7,7 +7,7 @@ response = requests.get("https://api.github.com/search/users?q=forkim")
 json_data = response.json()
 
 print(json_data['total_count'])
-
+ 
 print(json_data['items'][1]['html_url'])
 
 
