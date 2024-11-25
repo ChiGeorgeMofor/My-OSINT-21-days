@@ -5,7 +5,7 @@ response = requests.get("https://api.github.com/search/users?q=folefac")
 
 json_data = response.json()
  
-usersCount = len(json_data['items'])-1
+usersCount = len(json_data['items'])-1 
 
 for x in range(usersCount):
     print(json_data['items'][x]['html_url'])
