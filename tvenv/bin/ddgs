@@ -1,7 +1,7 @@
 #!/home/chimofor/Learning/My-OSINT-21-days/tvenv/bin/python
 # -*- coding: utf-8 -*-
 import re
-import sys
+import sys 
 from duckduckgo_search.cli import safe_entry_point
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
