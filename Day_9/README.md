@@ -2,7 +2,7 @@ Day 9: Automate the collection of search results.
 
 EmailFinder: we used the EmailFinder to search for emails from a domain name
             https://github.com/Josue87/EmailFinder
-
+ 
 StartPagePase: Collects search results from startpage search engine
             https://github.com/knassar702/startpage-parser
 
