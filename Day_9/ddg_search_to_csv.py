@@ -1,6 +1,6 @@
 # from duckduckgo_search import ddg
 import csv
-
+ 
 csv_file = open('search_results.csv', 'w')
 writer = csv.writer(csv_file, delimiter=';')
 
