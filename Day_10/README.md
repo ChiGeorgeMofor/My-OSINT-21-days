@@ -1,5 +1,5 @@
 DAY-10: SCRAPING
- 
+  
 Scraping is the process of automatically extracting data from websites.
 In python this is mostly done using libaries like BeautifulSoup, requests, Scrapy, Selenium..
 
