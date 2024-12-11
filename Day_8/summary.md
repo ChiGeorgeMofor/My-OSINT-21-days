@@ -1,7 +1,7 @@
 Day-8: DATABASES
 
 A database is an organised collection of structured information, or data, typically stored electronically in a computer system.
-
+ 
 I learned about the use of Google Hacking Database
 
 To convert from SQL to CSV to easily be able to read the files.
