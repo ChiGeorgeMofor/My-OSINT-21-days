@@ -4,7 +4,7 @@ This repo features my journey through a 21-day Python challenge created by @Cyb_
 
 # 21 Days of Python OSINT Challenge 🐍🔍
 
-Welcome to my 21 Days of Python OSINT Challenge repository! This project showcases my progress as I learn to use Python for Open Source Intelligence (OSINT) tasks. 
+Welcome to my 21 Days of Python OSINT Challenge repository! This project showcases my progress as I learn to use Python for Open Source Intelligence (OSINT) tasks.  
 
 ## Overview
 
