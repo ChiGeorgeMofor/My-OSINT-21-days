@@ -2,7 +2,7 @@ import json
 import requests
 
 response = requests.get("https://api.github.com/search/users?q=folefac") 
- 
+  
 json_data = response.json()
  
 usersCount = len(json_data['items'])-1 
