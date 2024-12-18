@@ -2,5 +2,5 @@ f = open("results.txt", "r")
 
 stringList = f.readlines()
  
-print(stringList[4]) 
+print(stringList[4])  
   
