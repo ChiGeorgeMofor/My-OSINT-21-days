@@ -7,7 +7,7 @@ The most important thing to know about scraping and python is that writing your 
 It is better to try different ready made tools first. 
 
 Web Scraper Chrom Extension: 
-    https://chrome.google.com/webstore/detail/web-scraper-free-web-scra/jnhgnonknehpejjnehehllkliplmbmhn
+    https://chrome.google.com/webstore/detail/web-scraper-free-web-scra/jnhgnonknehpejjnehehllkliplmbmhn 
 
 AI sites for Web Scraping
 Browse AI- https://www.browse.ai
