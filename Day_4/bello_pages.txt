@@ -14,7 +14,7 @@
 [97m[[31;1m-[97m] Wikipedia: [31;1mNot Found[0m
 [97m[[31;1m-[97m] Wattpad: [31;1mNot Found[0m
 [97m[[31;1m-[97m] Google PlayStore: [31;1mNot Found[0m
-[97m[[31;1m-[97m] VirusTotal: [31;1mNot Found[0m
+[97m[[31;1m-[97m] VirusTotal: [31;1mNot Found[0m 
 [97m[[31;1m-[97m] BuyMeACoffee: [31;1mNot Found[0m
 [97m[[31;1m-[97m] BitBucket: [31;1mNot Found[0m
 [97m[[31;1m-[97m] LeetCode: [31;1mNot Found[0m
