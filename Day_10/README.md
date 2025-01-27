@@ -9,7 +9,7 @@ It is better to try different ready made tools first.
 Web Scraper Chrom Extension: 
     https://chrome.google.com/webstore/detail/web-scraper-free-web-scra/jnhgnonknehpejjnehehllkliplmbmhn 
 
-AI sites for Web Scraping
+AI sites for Web Scraping 
 Browse AI- https://www.browse.ai
 Any Picket-  
     https://chrome.google.com/webstore/detail/anypicker-ai-powered-no-c/bjkpgfhekfmdffdphnniobddhkjlmmlj
