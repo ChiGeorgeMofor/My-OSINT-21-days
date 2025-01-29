@@ -11,7 +11,7 @@ Web Scraper Chrom Extension:
 
 AI sites for Web Scraping   
 Browse AI- https://www.browse.ai
-Any Picket-  
+Any Picket-   
     https://chrome.google.com/webstore/detail/anypicker-ai-powered-no-c/bjkpgfhekfmdffdphnniobddhkjlmmlj
 ScrapeStorm- https://www.scrapestorm.com
 
