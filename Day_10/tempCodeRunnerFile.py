@@ -1,0 +1,1 @@
+https://pypi.org/project/duckduckgo-search/
