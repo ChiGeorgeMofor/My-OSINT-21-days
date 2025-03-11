@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: wayback
+Version: 0.4.5
+Summary: Python API to Internet Archive Wayback Machine
+Home-page: https://github.com/edgi-govdata-archiving/wayback
+Author: Environmental Data Governance Initiative
+Author-email: EnviroDGI@protonmail.com
+License: BSD (3-clause)
+Project-URL: Documentation, https://wayback.readthedocs.io/en/stable/
+Project-URL: Changelog, https://wayback.readthedocs.io/en/stable/release-history.html
+Project-URL: Source code, https://github.com/edgi-govdata-archiving/wayback
+Project-URL: Issues, https://github.com/edgi-govdata-archiving/wayback/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: urllib3 (>=1.20)
+Provides-Extra: dev
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: check-wheel-contents (~=0.6.0) ; extra == 'dev'
+Requires-Dist: flake8 (~=6.1.0) ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx (~=7.2.6) ; extra == 'docs'
+Requires-Dist: ipython (~=8.16.1) ; extra == 'docs'
+Requires-Dist: numpydoc (~=1.6.0) ; extra == 'docs'
+Requires-Dist: sphinx-copybutton (~=0.5.2) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (~=1.3.0) ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: codecov ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: requests-mock ; extra == 'test'
+Requires-Dist: setuptools ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: vcrpy ; extra == 'test'
+
+===============================
+wayback
+===============================
+
+.. image:: https://circleci.com/gh/edgi-govdata-archiving/wayback/tree/main.svg?style=shield
+        :target: https://circleci.com/gh/edgi-govdata-archiving/wayback
+        :alt: Build Status
+
+.. image:: https://img.shields.io/pypi/v/wayback.svg
+        :target: https://pypi.python.org/pypi/wayback
+        :alt: Download Latest Version from PyPI
+
+.. image:: https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat
+        :target: https://github.com/edgi-govdata-archiving/overview/blob/main/CONDUCT.md
+        :alt: Code of Conduct
+
+.. image:: https://readthedocs.org/projects/wayback/badge/?version=stable
+        :target: https://wayback.readthedocs.io/en/stable/?badge=stable
+        :alt: Documentation Status
+
+
+*Wayback* is A Python API to the `Internet Archive’s Wayback Machine <https://web.archive.org/>`_. It gives you tools to search for and load mementos (historical copies of web pages).
+
+The Internet Archive maintains an official `“internetarchive” <https://archive.org/services/docs/api/internetarchive/>`_ Python package, but it does not focus on the Wayback Machine. Instead, it is mainly concerned with the APIs and tools that manage the Internet Archive as a whole: managing items and collections. These are how e-books, audio recordings, movies, and other content in the Internet Archive are managed. It doesn’t, however, provide particularly good tools for finding or loading historical captures of specific URLs (i.e. the part of the Internet Archive called the “Wayback Machine”). That’s what this package does.
+
+* Documentation:
+    * Current Release: https://wayback.readthedocs.io/en/stable/
+    * Development: https://wayback.readthedocs.io/en/latest/
+
+
+Installation & Basic Usage
+--------------------------
+
+Install via pip on the command line::
+
+    $ pip install wayback
+
+Then, in a Python script, import it and create a client:
+
+.. code-block:: python
+
+    import wayback
+    client = wayback.WaybackClient()
+
+Finally, search for all the mementos of ``nasa.gov`` before 1999 and download them:
+
+.. code-block:: python
+
+    for record in client.search('http://nasa.gov', to_date=date(1999, 1, 1)):
+        memento = client.get_memento(record)
+
+Read the `full documentation <https://wayback.readthedocs.io/>`_ for a more in-depth tutorial and complete API reference documentation at https://wayback.readthedocs.io/
+
+
+Code of Conduct
+---------------
+
+This repository falls under EDGI’s `Code of Conduct <https://github.com/edgi-govdata-archiving/overview/blob/main/CONDUCT.md>`_. Please take a moment to review it before commenting on or creating issues and pull requests.
+
+
+Contributors
+------------
+
+Thanks to the following people for their contributions and help on this package! See our `contributing guidelines <https://github.com/edgi-govdata-archiving/wayback/blob/main/CONTRIBUTING.rst>`_ to find out how you can help.
+
+- `Dan Allan <https://github.com/danielballan>`_ (Code, Tests, Documentation, Reviews)
+- `Rob Brackett <https://github.com/Mr0grog>`_ (Code, Tests, Documentation, Reviews)
+- `David Gilman <https://github.com/dgilman>`_ (Documentation)
+- `Will Sackfield <https://github.com/8W9aG>`_ (Code, Tests)
+- `Ed Summers <https://github.com/edsu>`_ (Code, Tests)
+- `Lion Szlagowski <https://github.com/LionSzl>`_ (Code, Tests)
+
+
+License & Copyright
+-------------------
+
+Copyright (C) 2019-2023 Environmental Data and Governance Initiative (EDGI)
+
+This program is free software: you can redistribute it and/or modify it under the terms of the 3-Clause BSD License. See the `LICENSE <https://github.com/edgi-govdata-archiving/wayback/blob/master/LICENSE>`_ file for details.
+
+
