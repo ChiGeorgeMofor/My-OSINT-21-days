@@ -13,4 +13,4 @@ Stackoverflow, analyzes them and generates a solution based on them.
 Sometimes he also uses other IT sites as sources of information.
 
 https://useadrenaline.com/app - To find the code that performs a particular task in a larger
-project
+project 
