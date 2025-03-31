@@ -5,4 +5,4 @@ There are many ways to create web applications in Python. Ex; you can use framew
 Learning how to use Streamlit to turn Maigret (tool for nickname enumeration) into a
 web application:
 The easiest way to turn an OSINT Python script into a web application.
-Combining Maigret and Streamlit in three simple steps
+Combining Maigret and Streamlit in three simple steps 
